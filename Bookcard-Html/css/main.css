@@ -20,11 +20,15 @@ a { color: #C25337; text-decoration: none; outline: none; }
 a:hover { color: #C00; }
 
 iframe { border: none; }
-p,ul,ol { font-size:.875em; line-height:160%; }
+p,ul,ol { font-size:.875em; line-height:160%; word-wrap: break-word; }
 ul { list-style: square; }
 img { width:auto; max-width:100%; height:auto; }
 .cf:before, .cf:after { content: " "; display: table; }
 .cf:after { clear: both; }
+
+/* PREVENT TEXT OVERFLOW */
+h1, h2, h3, h4, h5, h6 { word-wrap: break-word; overflow-wrap: break-word; max-width: 100%; }
+.content { word-wrap: break-word; overflow-wrap: break-word; }
 
 .easing, #header nav ul a, .btn, .portfolio-nav a.button, .social li a, input,textarea, .media-box .mask, .cover h1, .cover h2, .cover h3, .rm-close span, .cover .widget-twitter .twitter-link:before, .latest-from-blog a, .more a, .post-pagination li a, .navigation a { -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 .easing-long { -webkit-transition: all 1.2s ease-out; -moz-transition: all 1.2s ease-out; -ms-transition: all 1.2s ease-out; -o-transition: all 1.2s ease-out; transition: all 1.2s ease-out; }
@@ -422,11 +426,42 @@ box-shadow: 0 0 10px #555;
 /* COVER PAGE */
 .cover-image-holder { display: none; }
 .cover { position: relative; z-index:1000; width:100%; height:100%; overflow:hidden; background-position: center center; background-repeat: no-repeat; background-size: cover; }
-.cover h1 { display: block; width: 100%; margin: 0 auto; padding: .5em 0 .1em 0; text-align: center; color: #fff; line-height: 1; letter-spacing: 1px; font-size: 62px; font-family: 'Alfa Slab One'; text-shadow: 8px 7px 0px rgba(0, 0, 0, 0.1); }
-.cover h2 { display: block; width: 100%; margin: 0% 0 8% 0%; padding: 0; text-align: center; line-height: 1.2; letter-spacing: 1px; color: #fff; font-size: 16px; font-family: 'Nixie One'; }
-.cover h3 { display: block; width: 30%; margin: 5% 0 0 4%; padding: 0; text-align: left; letter-spacing: 1px; font-size: 18px; font-family: 'Raleway'; font-weight: 200; color:#fff; }
+.cover h1 { display: block; width: 100%; margin: 0 auto; padding: .5em 0 .1em 0; text-align: center; color: #fff; line-height: 1; letter-spacing: 1px; font-size: 62px; font-family: 'Alfa Slab One'; text-shadow: 8px 7px 0px rgba(0, 0, 0, 0.1); max-width: 100%; word-wrap: break-word; }
+.cover h2 { display: block; width: 100%; margin: 0% 0 8% 0%; padding: 0; text-align: center; line-height: 1.2; letter-spacing: 1px; color: #fff; font-size: 16px; font-family: 'Nixie One'; max-width: 100%; word-wrap: break-word; }
+.cover h3 { display: block; width: 30%; margin: 5% 0 0 4%; padding: 0; text-align: left; letter-spacing: 1px; font-size: 18px; font-family: 'Raleway'; font-weight: 200; color:#fff; max-width: 90%; word-wrap: break-word; }
 .cover h3 span { display: block; font-weight:800; color: #FC0; }
 .cover h2, .cover h3 { text-shadow: rgba(0,0,0,.4) 1px 1px 0, rgba(0,0,0,.4) 2px 2px 0; }
+
+/* RESPONSIVE FONT SIZING FOR COVER PAGE */
+@media screen and (max-width: 1200px) {
+	.cover h1 { font-size: 48px; }
+	.cover h2 { font-size: 14px; }
+	.cover h3 { font-size: 16px; }
+}
+
+@media screen and (max-width: 960px) {
+	.cover h1 { font-size: 36px; }
+	.cover h2 { font-size: 13px; }
+	.cover h3 { font-size: 14px; width: 40%; }
+}
+
+@media screen and (max-width: 768px) {
+	.cover h1 { font-size: 28px; }
+	.cover h2 { font-size: 12px; }
+	.cover h3 { font-size: 13px; width: 50%; }
+}
+
+@media screen and (max-width: 560px) {
+	.cover h1 { font-size: 22px; padding: .3em 0.5em .1em 0.5em; }
+	.cover h2 { font-size: 11px; padding: 0 0.5em; }
+	.cover h3 { font-size: 12px; width: 60%; margin: 3% 0 0 4%; }
+}
+
+@media screen and (max-width: 420px) {
+	.cover h1 { font-size: 18px; }
+	.cover h2 { font-size: 10px; }
+	.cover h3 { font-size: 11px; width: 70%; }
+}
 
 
 /* OPEN BUTTON */
@@ -590,6 +625,12 @@ a.ribbon:hover { color: #000; }
 	.content { padding: 2em 1.2em; }
 	.cover .widget-twitter { display: none; }
 	.latest-from-blog { bottom: 0; }
+	/* Responsive content font sizes */
+	.content h1 { font-size: 1.8em; }
+	.content h2 { font-size: 1.6em; }
+	.content h3 { font-size: 1.1em; }
+	.content h4 { font-size: 0.95em; }
+	.content p, .content ul, .content ol { font-size: 0.85em; }
 }
 
 
