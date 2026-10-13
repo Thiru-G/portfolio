@@ -12,15 +12,15 @@ R&D engineer working at the intersection of embedded systems, biomedical signals
 
 01
 
-2026 — PRESENT
+MAY 2026 — SEPT 2026
 
 Prem AI
 
 R&D Engineer · Hardware & Firmware
 
-Designing EMG acquisition front-ends with ADS1298, from PGA gain stages and input multiplexing to the analog signal chain.
+Designed EMG acquisition front-ends with ADS1298, from PGA gain stages and input multiplexing to the analog signal chain.
 
-Developing SuperMic: combining body- and air-conduction microphones for voice capture in noisy environments. Exploring silent speech interfaces as the next research stage.
+Developed SuperMic: combining body- and air-conduction microphones for voice capture in noisy environments. Explored silent speech interfaces as the next research stage.
 
 02
 
