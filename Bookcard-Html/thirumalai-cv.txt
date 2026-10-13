@@ -1,0 +1,171 @@
+THIRUMALAI SRINIVASAN G
+thirumalaisrinivasang@gmail.com | +91 9790761391
+linkedin.com/in/thirumalai-srinivasan-g
+
+01 / EXPERIENCE
+
+Behind the mask.
+
+The actual work.
+
+R&D engineer working at the intersection of embedded systems, biomedical signals and hardware that makes a difference.
+
+01
+
+2026 — PRESENT
+
+Prem AI
+
+R&D Engineer · Hardware & Firmware
+
+Designing EMG acquisition front-ends with ADS1298, from PGA gain stages and input multiplexing to the analog signal chain.
+
+Developing SuperMic: combining body- and air-conduction microphones for voice capture in noisy environments. Exploring silent speech interfaces as the next research stage.
+
+02
+
+2024 — 2026
+
+Dognosis
+
+Founding R&D Engineer · Electronics Team Lead
+
+Built and led the electronics team across BCI research, sensor integration, HMI development and manufacturing.
+
+Designed an in-house 8-channel EEG amplifier with ADS1299. Led hardware development of SniffSpace, a fully automated olfactory workstation for biomedical detection dogs.
+
+03
+
+2019 — 2024
+
+VLOG Innovations & Meditech
+
+R&D Lead · Medical Electronics
+
+Led cross-functional teams across 45+ projects for B2B, B2C and B2G clients, including government and international initiatives.
+
+Designed the photodiode TIA and photon-counting signal chain for a bioluminescence-based TB diagnostics device with NIRT (ICMR).
+
+02 / SELECTED MISSIONS
+
+From first signal
+
+to real-world systems.
+
+01 / BIOMEDICAL SYSTEMS
+
+SniffSpace
+
+Automation meets an extraordinary sense of smell.
+
+Led development of the automated dog training platform at Dognosis: sample-handling pods, feeders, barriers and gate control. The workstation became a foundation for research and ground-truth collection.
+
+SYSTEM DESIGN · EMBEDDED · MANUFACTURING
+
+02 / CONNECTED INFRASTRUCTURE
+
+Beyond GPS.
+
+Beacon mesh fleet tracking · Dubai Airport POC
+
+Developed and presented a fleet management proposal and prototype to Alpha Data LLC. The proposed system reported 35% better accuracy than GPS and a 12× reduction in latency.
+
+BEACON MESH · IOT · PROTOTYPING
+
+03 / MEDICAL ELECTRONICS
+
+Signals that matter.
+
+Photon-based tuberculosis drug susceptibility testing
+
+Devised electronics for a TB DST device for NIRT. Led embedded systems, DSP, HMI, web application and prototyping teams.
+
+ANALOG FRONT-END · SIGNAL PROCESSING · R&D
+
+03 / THE UTILITY BELT
+
+The tools behind
+
+the work.
+
+Embedded Systems
+
+IoT
+
+Firmware
+
+Analog Front-End Design
+
+Biopotential Acquisition
+
+Signal Processing
+
+PCB Design
+
+SPICE
+
+Python
+
+C / C++ / Embedded C
+
+ESP32
+
+STM32
+
+ARM Cortex
+
+BLE
+
+Wi-Fi Mesh
+
+LoRa
+
+UART / SPI / I2C
+
+ADS1298 / ADS1299
+
+AD620 / AD8232
+
+MEMS Microphones
+
+Hardware Prototyping
+
+Edge Computing
+
+04 / FOUNDATIONS
+
+Always learning.
+
+Always building.
+
+B.Tech. Electronics & Communication Engineering
+
+Vellore Institute of Technology, Chennai
+
+GPA 8.43 / 10
+
+Higher Secondary Education
+
+G K Shetty Vivekananda Vidyalaya, Chennai
+
+GPA 9.38 / 10
+
+PUBLICATIONS & INTELLECTUAL PROPERTY
+
+SPRINGER / 2024 ↗
+
+Wireless Control System for Laser Cutters and Engraving Machines
+
+The International Journal of Advanced Manufacturing Technology
+
+ELSEVIER / 2025 ↗
+
+Development and Implementation of a User-Centric Real-Time Energy Monitoring and Feedback System for Energy Conservation
+
+Energy and Buildings
+
+REGISTERED DESIGN / INDIA
+
+Dynamic Wireless Controller for CNC Laser Machines
+
+Design No. 408311-001
